@@ -1,0 +1,34 @@
+/* ThemeColor One */
+.constructit-color,
+.constructit-colorhover:hover,
+.constructit-banner-text-two h1,
+.constructit-fancy-title h6,
+.constructit-fancy-title span i,
+.widget-about-info li i,
+.widget_footer_links ul li:hover a,
+.constructit-copyright p a,
+.widget_cetagories ul li:hover a {
+  color: #993939;
+}
+.constructit-banner-text h1:before,
+.constructit-banner .slick-dots li.slick-active button:before,
+.submit input[type="submit"]:hover,
+.ui-slider {
+  background-color: #993939;
+}
+.constructit-testimonial-list-layer.slick-slide.slick-current.slick-active span,
+.constructit-images-list-layer.slick-slide.slick-current.slick-active span {
+  border-color: #993939;
+}
+/* {
+  border-right-color: #1b337a;
+}
+ {
+  border-top-color: #1b337a;
+} */
+.constructit-banner .slick-dots li.slick-active button {
+  background-color: #993939;
+}
+.constructit-breadcrumb ul li.active {
+  color: #993939;
+}
