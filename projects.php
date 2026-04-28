@@ -31,7 +31,7 @@
             <div class="our-projects">
                 <h2>PS INNOVATIVE Creation Projects</h2>
                 <div class="row">
-                    <div class="gallery-grids tabcontent active" id="Appartment">
+                    <div class="gallery-grids tabcontent active" style="width: 100%;" id="Appartment">
 
                         <!-- Existing projects -->
                         <div class="col-md-4 gal-grid">
@@ -151,7 +151,7 @@
                         <!-- Tathawade projects (1 image) -->
                         <div class="col-md-4 gal-grid gal-top">
                             <div class="gallery-item" onclick="openLocationModal('tathawade')">
-                                <img src="assets/images/projects/Tathawade.jpeg" alt="Tathawade Projects" />
+                                <img src="assets/images/projects/Tathawade.jpeg" />
                                 <div class="overlay">
                                     <h3>Tathawade Projects</h3>
                                     <p>1 Image Available</p>
@@ -159,69 +159,66 @@
                             </div>
                         </div>
 
-                        <!-- Ravet 2BHK Flat Apartment (1 PDF) -->
+                        
                         <div class="col-md-4 gal-grid gal-top">
-                            <div class="gallery-item" onclick="openLocationModal('ravet')">
-                                <img src="assets/images/projects/site_img-01.jpeg" alt="2BHK Flat Apartment Ravet" />
+                            <div class="gallery-item" onclick="openLocationModal('image4oct25')">
+                                <img src="assets/images/projects/image4oct25.jpeg" alt="anjangaon Projects" />
                                 <div class="overlay">
-                                    <h3>2BHK Flat Apartment Ravet</h3>
-                                    <p>1 Document Available</p>
+                                    <h3>anjangaon Projects</h3>
+                                    <p>1 Image Available</p>
                                 </div>
                             </div>
                         </div>
 
 
 
-                        <!-- Site images -->
-                        <div class="col-md-4 gal-grid gal-top">
-                            <div class="gallery-item" onclick="openLocationModal('site_images')">
-                                <img src="assets/images/projects/site_img-01.jpeg" alt="Site Images" />
-                                <div class="overlay">
-                                    <h3>Site Images</h3>
-                                    <p>3 Images Available</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Individual Site Images -->
-                        <div class="col-md-4 gal-grid gal-top">
-                            <div class="gallery-item" onclick="openModal(20)">
-                                <img src="assets/images/projects/site_img-02.jpeg" alt="Site Image 2" />
-                                <div class="overlay">
-                                    <h3>Project</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 gal-grid gal-top">
-                            <div class="gallery-item" onclick="openModal(21)">
-                                <img src="assets/images/projects/site_img-03.jpeg" alt="Site Image 3" />
-                                <div class="overlay">
-                                    <h3>Project</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Individual Videos -->
                         <div class="col-md-4 gal-grid gal-top">
                             <div class="gallery-item" onclick="openModal(22)">
                                 <video autoplay muted loop class="gallery-video">
-                                    <source src="assets/images/projects/video_02.mp4" type="video/mp4" />
+                                    <source src="assets/images/projects/video4oct25.mp4" type="video/mp4" />
                                 </video>
                                 <div class="overlay">
                                     <h3>Project Video</h3>
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Shirapur project (13 images) -->
                         <div class="col-md-4 gal-grid gal-top">
-                            <div class="gallery-item" onclick="openModal(23)">
-                                <video autoplay muted loop class="gallery-video">
-                                    <source src="assets/images/projects/video_03.mp4" type="video/mp4" />
-                                </video>
+                            <div class="gallery-item" onclick="openLocationModal('shirapur')">
+                                <img src="assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%2012.58.22%20PM.jpeg" alt="Shirapur Projects" />
                                 <div class="overlay">
-                                    <h3>Project Video</h3>
+                                    <h3>Location -Shirapur, Pune</h3>
+                                    <p>13 Images Available</p>
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Ravet project (10 images) -->
+                        <div class="col-md-4 gal-grid gal-top">
+                            <div class="gallery-item" onclick="openLocationModal('ravet_new')">
+                                <img src="assets/images/projects/Location%20-%20Ravet%2CPune/WhatsApp%20Image%202026-04-27%20at%201.00.25%20PM.jpeg" alt="Ravet Projects" />
+                                <div class="overlay">
+                                    <h3>Location - Ravet, Pune</h3>
+                                    <p>10 Images Available</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Chimble project (7 images) -->
+                        <div class="col-md-4 gal-grid gal-top">
+                            <div class="gallery-item" onclick="openLocationModal('chimble')">
+                                <img src="assets/images/projects/Location%20-%20Chimble%2CPune/WhatsApp%20Image%202026-04-27%20at%201.02.38%20PM.jpeg" alt="Chimble Projects" />
+                                <div class="overlay">
+                                    <h3>Location - Chimble, Pune</h3>
+                                    <p>7 Images Available</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        
+
 
                         <!-- Modal -->
                         <div id="imageModal" class="modal">
@@ -280,6 +277,12 @@
         'tathawade': [
             { type: "image", src: "assets/images/projects/Tathawade.jpeg" }
         ],
+        'image4oct25':[
+            {type:"image",src:"assets/images/projects/image4oct25.jpeg"}
+        ],
+        'video4oct25':[
+            {type:"video",src:"assets/imeges/projects/video4oct25.mp4"}
+        ],
         'ravet': [
             { type: "pdf", src: "assets/images/projects/2BHK Flat Appartment Ravet.pdf" }
         ],
@@ -298,6 +301,42 @@
             { type: "video", src: "assets/images/projects/video_01.mp4" },
             { type: "video", src: "assets/images/projects/video_02.mp4" },
             { type: "video", src: "assets/images/projects/video_03.mp4" }
+        ],
+        'shirapur': [
+            { type: "image", src: "assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%2012.58.22%20PM.jpeg" },
+            { type: "image", src: "assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%2012.59.00%20PM.jpeg" },
+            { type: "image", src: "assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%2012.59.10%20PM.jpeg" },
+            { type: "image", src: "assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%201.00.25%20PM.jpeg" },
+            { type: "image", src: "assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%201.00.37%20PM.jpeg" },
+            { type: "image", src: "assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%201.01.00%20PM.jpeg" },
+            { type: "image", src: "assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%201.02.38%20PM.jpeg" },
+            { type: "image", src: "assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%201.02.41%20PM%20%281%29.jpeg" },
+            { type: "image", src: "assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%201.02.41%20PM.jpeg" },
+            { type: "image", src: "assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%201.02.42%20PM%20%281%29.jpeg" },
+            { type: "image", src: "assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%201.02.42%20PM.jpeg" },
+            { type: "image", src: "assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%201.02.43%20PM%20%281%29.jpeg" },
+            { type: "image", src: "assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%201.02.43%20PM.jpeg" }
+        ],
+        'ravet_new': [
+            { type: "image", src: "assets/images/projects/Location%20-%20Ravet%2CPune/WhatsApp%20Image%202026-04-27%20at%201.00.25%20PM.jpeg" },
+            { type: "image", src: "assets/images/projects/Location%20-%20Ravet%2CPune/WhatsApp%20Image%202026-04-27%20at%201.00.37%20PM.jpeg" },
+            { type: "image", src: "assets/images/projects/Location%20-%20Ravet%2CPune/WhatsApp%20Image%202026-04-27%20at%201.01.00%20PM.jpeg" },
+            { type: "image", src: "assets/images/projects/Location%20-%20Ravet%2CPune/WhatsApp%20Image%202026-04-27%20at%201.02.38%20PM.jpeg" },
+            { type: "image", src: "assets/images/projects/Location%20-%20Ravet%2CPune/WhatsApp%20Image%202026-04-27%20at%201.02.41%20PM%20%281%29.jpeg" },
+            { type: "image", src: "assets/images/projects/Location%20-%20Ravet%2CPune/WhatsApp%20Image%202026-04-27%20at%201.02.41%20PM.jpeg" },
+            { type: "image", src: "assets/images/projects/Location%20-%20Ravet%2CPune/WhatsApp%20Image%202026-04-27%20at%201.02.42%20PM%20%281%29.jpeg" },
+            { type: "image", src: "assets/images/projects/Location%20-%20Ravet%2CPune/WhatsApp%20Image%202026-04-27%20at%201.02.42%20PM.jpeg" },
+            { type: "image", src: "assets/images/projects/Location%20-%20Ravet%2CPune/WhatsApp%20Image%202026-04-27%20at%201.02.43%20PM%20%281%29.jpeg" },
+            { type: "image", src: "assets/images/projects/Location%20-%20Ravet%2CPune/WhatsApp%20Image%202026-04-27%20at%201.02.43%20PM.jpeg" }
+        ],
+        'chimble': [
+            { type: "image", src: "assets/images/projects/Location%20-%20Chimble%2CPune/WhatsApp%20Image%202026-04-27%20at%201.02.38%20PM.jpeg" },
+            { type: "image", src: "assets/images/projects/Location%20-%20Chimble%2CPune/WhatsApp%20Image%202026-04-27%20at%201.02.41%20PM%20%281%29.jpeg" },
+            { type: "image", src: "assets/images/projects/Location%20-%20Chimble%2CPune/WhatsApp%20Image%202026-04-27%20at%201.02.41%20PM.jpeg" },
+            { type: "image", src: "assets/images/projects/Location%20-%20Chimble%2CPune/WhatsApp%20Image%202026-04-27%20at%201.02.42%20PM%20%281%29.jpeg" },
+            { type: "image", src: "assets/images/projects/Location%20-%20Chimble%2CPune/WhatsApp%20Image%202026-04-27%20at%201.02.42%20PM.jpeg" },
+            { type: "image", src: "assets/images/projects/Location%20-%20Chimble%2CPune/WhatsApp%20Image%202026-04-27%20at%201.02.43%20PM%20%281%29.jpeg" },
+            { type: "image", src: "assets/images/projects/Location%20-%20Chimble%2CPune/WhatsApp%20Image%202026-04-27%20at%201.02.43%20PM.jpeg" }
         ]
     };
 
@@ -315,7 +354,10 @@
         'ravet': '2BHK Flat Apartment Ravet',
         'ps_projects': 'PS INNOVATIVE Projects',
         'site_images': 'Site Images',
-        'videos': 'Project Videos'
+        'videos': 'Project Videos',
+        'shirapur': 'Location -Shirapur, Pune',
+        'ravet_new': 'Location - Ravet, Pune',
+        'chimble': 'Location - Chimble, Pune'
     };
 
     function openLocationModal(location) {
@@ -465,3 +507,4 @@
 </script>
 
 <?php include "layout/footer.php" ?>
+

@@ -465,6 +465,8 @@
   .constructit-top-strip,
   .logo {
     text-align: center;
+    width: auto;
+    margin-left: 0;
   }
   .constructit-strip-info {
     width: 100%;

@@ -32,62 +32,176 @@
                 <h2>From Our Studio</h2>
                 <div class="row">
                     <div class="gallery-grids tabcontent active" id="Appartment">
-                        <div class="col-md-4 gal-grid">
-                            <div class="gallery-item" onclick="openModal(0)">
-                                <img src="assets/images/studio/studio-01_wadgaon.png" alt="studio_img" />
-                                <div class="overlay">
-                                    <h3>Wadgaon, Pune</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 gal-grid">
-                            <div class="gallery-item" onclick="openModal(1)">
-                                <img src="assets/images/studio/studio-02_mandavgan.png" alt="studio_img" />
-                                <div class="overlay">
-                                    <h3>Mandavgan Farata, Ta-Shirur, Pune</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 gal-grid gal-top">
-                            <div class="gallery-item" onclick="openModal(2)">
-                                <img src="assets/images/studio/studio-03_amravati.png" alt="studio_img" />
-                                <div class="overlay">
-                                    <h3>Amravati, Maharashtra</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 gal-grid gal-top">
-                            <div class="gallery-item" onclick="openModal(3)">
-                                <img src="assets/images/studio/studio-04_nigadi.png" alt="studio_img" />
-                                <div class="overlay">
-                                    <h3>Tower Line, Nigadi</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 gal-grid gal-top">
-                            <div class="gallery-item" onclick="openModal(4)">
-                                <img src="assets/images/studio/studio-05_purandar.png" alt="studio_img" />
-                                <div class="overlay">
-                                    <h3>Purandar</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 gal-grid gal-top">
-                            <div class="gallery-item" onclick="openModal(5)">
-                                <img src="assets/images/studio/studio-06_marunji.png" alt="studio_img" />
-                                <div class="overlay">
-                                    <h3>Marunji, Pune</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 gal-grid gal-top">
-                            <div class="gallery-item" onclick="openModal(6)">
-                                <img src="assets/images/studio/studio-07_walhekarwadi.png" alt="studio_img" />
-                                <div class="overlay">
-                                    <h3>Walhekarwadi, Pune</h3>
-                                </div>
-                            </div>
-                        </div>
+                        <!-- Image Grid Item -->
+
+
+
+<div class="col-md-4 gal-grid">
+    <div class="gallery-item" onclick="previewImage(this)">
+        <img src="assets/images/studio-1/studio-14_typcial floor.jpeg" alt="studio_img" />
+        <div class="overlay">
+            <h3>Typcial floor, Pune</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Preview -->
+<div id="imgModal" class="modal" onclick="hidePreview()">
+    <span class="close" onclick="hidePreview(event)">&times;</span>
+    <img class="modal-content" id="modalImg" onclick="event.stopPropagation();" />
+</div>
+
+
+
+
+
+
+<div class="col-md-4 gal-grid">
+    <div class="gallery-item" onclick="previewImage(this)">
+        <img src="assets/images/studio-1/studio-01_wadgaon.png" alt="studio_img" />
+        <div class="overlay">
+            <h3>Wadgaon, Pune</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Preview -->
+<div id="imgModal" class="modal" onclick="hidePreview()">
+    <span class="close" onclick="hidePreview(event)">&times;</span>
+    <img class="modal-content" id="modalImg" onclick="event.stopPropagation();" />
+</div>
+
+
+
+
+<div class="col-md-4 gal-grid">
+    <div class="gallery-item" onclick="previewImage(this)">
+        <img src="assets/images/studio-1/studio-02_mandavgan.png" alt="studio_img" />
+        <div class="overlay">
+            <h3>mandavgan</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Preview -->
+<div id="imgModal" class="modal" onclick="hidePreview()">
+    <span class="close" onclick="hidePreview(event)">&times;</span>
+    <img class="modal-content" id="modalImg" onclick="event.stopPropagation();" />
+</div>
+
+
+
+
+
+<div class="col-md-4 gal-grid">
+    <div class="gallery-item" onclick="previewImage(this)">
+        <img src="assets/images/studio-1/studio-03_amravati.png" alt="studio_img" />
+        <div class="overlay">
+            <h3>amravati</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Preview -->
+<div id="imgModal" class="modal" onclick="hidePreview()">
+    <span class="close" onclick="hidePreview(event)">&times;</span>
+    <img class="modal-content" id="modalImg" onclick="event.stopPropagation();" />
+</div>
+
+
+
+
+
+
+<div class="col-md-4 gal-grid">
+    <div class="gallery-item" onclick="previewImage(this)">
+        <img src="assets/images/studio-1/studio-04_nigadi.png" alt="studio_img" />
+        <div class="overlay">
+            <h3>nigadi</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Preview -->
+<div id="imgModal" class="modal" onclick="hidePreview()">
+    <span class="close" onclick="hidePreview(event)">&times;</span>
+    <img class="modal-content" id="modalImg" onclick="event.stopPropagation();" />
+</div>
+
+
+
+
+
+
+<div class="col-md-4 gal-grid">
+    <div class="gallery-item" onclick="previewImage(this)">
+        <img src="assets/images/studio-1/studio-05_purandar.png" alt="studio_img" />
+        <div class="overlay">
+            <h3>purandar</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Preview -->
+<div id="imgModal" class="modal" onclick="hidePreview()">
+    <span class="close" onclick="hidePreview(event)">&times;</span>
+    <img class="modal-content" id="modalImg" onclick="event.stopPropagation();" />
+</div>
+
+
+
+
+
+
+
+<div class="col-md-4 gal-grid">
+    <div class="gallery-item" onclick="previewImage(this)">
+        <img src="assets/images/studio-1/studio-06_marunji.png" alt="studio_img" />
+        <div class="overlay">
+            <h3>marunji</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Preview -->
+<div id="imgModal" class="modal" onclick="hidePreview()">
+    <span class="close" onclick="hidePreview(event)">&times;</span>
+    <img class="modal-content" id="modalImg" onclick="event.stopPropagation();" />
+</div>
+
+
+
+
+
+<div class="col-md-4 gal-grid">
+    <div class="gallery-item" onclick="previewImage(this)">
+        <img src="assets/images/studio-1/studio-07_walhekarwadi.png" alt="studio_img" />
+        <div class="overlay">
+            <h3>walhekarwadi</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Preview -->
+<div id="imgModal" class="modal" onclick="hidePreview()">
+    <span class="close" onclick="hidePreview(event)">&times;</span>
+    <img class="modal-content" id="modalImg" onclick="event.stopPropagation();" />
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
                         <div class="col-md-4 gal-grid gal-top">
                             <div class="gallery-item" onclick="openModal(7)">
                                 <img src="assets/images/studio/studio-08_amravati.png" alt="studio_img" />
@@ -176,5 +290,21 @@
         evt.currentTarget.className += " active";
     }
 </script>
+<script>
+function previewImage(el) {
+    const imgSrc = el.querySelector('img').src;
+    const modal = document.getElementById("imgModal");
+    const modalImg = document.getElementById("modalImg");
+
+    modal.style.display = "block";
+    modalImg.src = imgSrc;
+}
+
+function hidePreview(event) {
+    if (event) event.stopPropagation(); // Prevent closing if close button clicked
+    document.getElementById("imgModal").style.display = "none";
+}
+</script>
+
 
 <?php include "layout/footer.php" ?>

@@ -1101,7 +1101,7 @@ img {
 
 .logo {
   float: left;
-  width: 30%;
+  width: 200px;
   height: auto;
   padding: 10px 0px 10px;
   margin-left: 30px;
@@ -1152,7 +1152,7 @@ span.has-subnav {
 }
 
 .navbar-nav > li {
-  margin: 0px 7px;
+  margin: 0px 4px;
   position: relative;
   list-style: none;
 }
@@ -1178,11 +1178,11 @@ span.has-subnav {
 }
 
 .navbar-nav > li > a {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 500;
   display: inline-block;
   text-transform: uppercase;
-  padding: 25px 8px 15px 6px;
+  padding: 25px 5px 15px 5px;
   position: relative;
 }
 

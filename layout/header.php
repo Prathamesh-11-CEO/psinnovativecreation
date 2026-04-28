@@ -49,23 +49,24 @@
             <div class="main-header">
                 <div class="container">
                     <div class="row">
-                        <aside class="col-md-7 col-sm-8 col-xs-6">
+                        <aside class="col-md-3 col-sm-8 col-xs-6">
                             <div class="logo-shape">
                                 <a href="index.php">
                                     <img src="assets/images/ps-logo.png" class="logo" alt="ps-logo" />
                                 </a>
                             </div>
                         </aside>
-                        <aside class="col-md-5 col-sm-4 col-xs-6">
+                        <aside class="col-md-9 col-sm-4 col-xs-6">
                             <!-- Navigation -->
                             <a href="#menu" class="menu-link active"> <span></span> </a>
-                            <nav id="menu" class="menu navbar navbar-default">
+                            <nav id="menu" class="menu navbar navbar-default" style="z-index: 9999;">
                                 <ul class="level-1 navbar-nav">
                                     <li class="active"><a href="index.php">Home</a></li>
                                     <li><a href="about_us.php">About Us</a></li>
                                     <li><a href="our_services.php">Our Services</a></li>
                                     <li><a href="projects.php">Projects</a></li>
                                     <li><a href="our_studio.php">Our Studio</a></li>
+                                    <li><a href="career.php">Careers</a></li>
                                     <li><a href="contact_us.php">Contact Us </a></li>
                                 </ul>
                             </nav>
