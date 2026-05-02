@@ -33,8 +33,140 @@
                 <div class="row">
                     <div class="gallery-grids tabcontent active" style="width: 100%;" id="Appartment">
 
-                        <!-- Existing projects -->
+                        <!-- Sate Town projects (6 images) — latest -->
                         <div class="col-md-4 gal-grid">
+                            <div class="gallery-item" onclick="openLocationModal('sate_town')">
+                                <img src="assets/images/projects/Sate%20Town/WhatsApp%20Image%202026-04-29%20at%203.31.43%20PM.jpeg" alt="Sate Town Projects" />
+                                <div class="overlay">
+                                    <h3>Sate Town</h3>
+                                    <h4>Location - Sate, Mawal</h4>
+                                    <p>6 Images Available</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Mamurdi projects (7 images) -->
+                        <div class="col-md-4 gal-grid">
+                            <div class="gallery-item" onclick="openLocationModal('mamurdi')">
+                                <img src="assets/images/projects/Mamurdi/WhatsApp%20Image%202026-04-29%20at%203.24.22%20PM.jpeg" alt="Mamurdi Projects" />
+                                <div class="overlay">
+                                    <h3>Mamurdi Projects</h3>
+                                    <p>7 Images Available</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Chimble project (7 images) -->
+                        <div class="col-md-4 gal-grid">
+                            <div class="gallery-item" onclick="openLocationModal('chimble')">
+                                <img src="assets/images/projects/Location%20-%20Chimble%2CPune/WhatsApp%20Image%202026-04-27%20at%201.02.38%20PM.jpeg" alt="Chimble Projects" />
+                                <div class="overlay">
+                                    <h3>Location - Chimble, Pune</h3>
+                                    <p>7 Images Available</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Ravet project (3 images) -->
+                        <div class="col-md-4 gal-grid gal-top">
+                            <div class="gallery-item" onclick="openLocationModal('ravet_new')">
+                                <img src="assets/images/projects/Location%20-%20Ravet%2CPune/WhatsApp%20Image%202026-04-27%20at%201.00.25%20PM.jpeg" alt="Ravet Projects" />
+                                <div class="overlay">
+                                    <h3>Location - Ravet, Pune</h3>
+                                    <p>3 Images Available</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Shirapur project (3 images) -->
+                        <div class="col-md-4 gal-grid gal-top">
+                            <div class="gallery-item" onclick="openLocationModal('shirapur')">
+                                <img src="assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%2012.58.22%20PM.jpeg" alt="Shirapur Projects" />
+                                <div class="overlay">
+                                    <h3>Location - Shirapur, Pune</h3>
+                                    <p>3 Images Available</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Nanekarwadi projects (4 images) -->
+                        <div class="col-md-4 gal-grid gal-top">
+                            <div class="gallery-item" onclick="openLocationModal('nanekarwadi')">
+                                <img src="assets/images/projects/nanekarwadi-01.jpg.jpeg" alt="Nanekarwadi Projects" />
+                                <div class="overlay">
+                                    <h3>Nanekarwadi Projects</h3>
+                                    <p>4 Images Available</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tathawade projects (1 image) -->
+                        <div class="col-md-4 gal-grid gal-top">
+                            <div class="gallery-item" onclick="openLocationModal('tathawade')">
+                                <img src="assets/images/projects/Tathawade.jpeg" />
+                                <div class="overlay">
+                                    <h3>Tathawade Projects</h3>
+                                    <p>1 Image Available</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 gal-grid gal-top">
+                            <div class="gallery-item" onclick="openLocationModal('image4oct25')">
+                                <img src="assets/images/projects/image4oct25.jpeg" alt="anjangaon Projects" />
+                                <div class="overlay">
+                                    <h3>anjangaon Projects</h3>
+                                    <p>1 Image Available</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 gal-grid gal-top">
+                            <div class="gallery-item" onclick="openModal(22)">
+                                <video autoplay muted loop class="gallery-video">
+                                    <source src="assets/images/projects/video4oct25.mp4" type="video/mp4" />
+                                </video>
+                                <div class="overlay">
+                                    <h3>Project Video</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Junnar projects (4 images) -->
+                        <div class="col-md-4 gal-grid gal-top">
+                            <div class="gallery-item" onclick="openLocationModal('junnar')">
+                                <img src="assets/images/projects/junner-01.jpg.jpeg" alt="Junnar Projects" />
+                                <div class="overlay">
+                                    <h3>Junnar Projects</h3>
+                                    <p>4 Images Available</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Anjangaon projects (3 images) -->
+                        <div class="col-md-4 gal-grid gal-top">
+                            <div class="gallery-item" onclick="openLocationModal('anjangaon')">
+                                <img src="assets/images/projects/anjangaon-01.jpg.jpeg" alt="Anjangaon Projects" />
+                                <div class="overlay">
+                                    <h3>Anjangaon Projects</h3>
+                                    <p>3 Images Available</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Beed projects (4 images) -->
+                        <div class="col-md-4 gal-grid gal-top">
+                            <div class="gallery-item" onclick="openLocationModal('beed')">
+                                <img src="assets/images/projects/beed-01.jpg.jpeg" alt="Beed Projects" />
+                                <div class="overlay">
+                                    <h3>Beed Projects</h3>
+                                    <p>4 Images Available</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Existing projects -->
+                        <div class="col-md-4 gal-grid gal-top">
                             <div class="gallery-item" onclick="openModal(0)">
                                 <img src="assets/images/projects/ps_project-01.png" alt="Mountain Valley" />
                                 <div class="overlay">
@@ -42,7 +174,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 gal-grid">
+                        <div class="col-md-4 gal-grid gal-top">
                             <div class="gallery-item" onclick="openModal(1)">
                                 <img src="assets/images/projects/ps_project-02.png" alt="Tropical Paradise" />
                                 <div class="overlay">
@@ -87,131 +219,6 @@
                                 <img src="assets/images/projects/ps_project-07.png" alt="Mountain Trail" />
                                 <div class="overlay">
                                     <h3>Location - Ratnagiri (Industrial shed)</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Beed projects (4 images) -->
-                        <div class="col-md-4 gal-grid gal-top">
-                            <div class="gallery-item" onclick="openLocationModal('beed')">
-                                <img src="assets/images/projects/beed-01.jpg.jpeg" alt="Beed Projects" />
-                                <div class="overlay">
-                                    <h3>Beed Projects</h3>
-                                    <p>4 Images Available</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Anjangaon projects (3 images) -->
-                        <div class="col-md-4 gal-grid gal-top">
-                            <div class="gallery-item" onclick="openLocationModal('anjangaon')">
-                                <img src="assets/images/projects/anjangaon-01.jpg.jpeg" alt="Anjangaon Projects" />
-                                <div class="overlay">
-                                    <h3>Anjangaon Projects</h3>
-                                    <p>3 Images Available</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Junnar projects (4 images) -->
-                        <div class="col-md-4 gal-grid gal-top">
-                            <div class="gallery-item" onclick="openLocationModal('junnar')">
-                                <img src="assets/images/projects/junner-01.jpg.jpeg" alt="Junnar Projects" />
-                                <div class="overlay">
-                                    <h3>Junnar Projects</h3>
-                                    <p>4 Images Available</p>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        <!-- Nanekarwadi projects (4 images) -->
-                        <div class="col-md-4 gal-grid gal-top">
-                            <div class="gallery-item" onclick="openLocationModal('nanekarwadi')">
-                                <img src="assets/images/projects/nanekarwadi-01.jpg.jpeg" alt="Nanekarwadi Projects" />
-                                <div class="overlay">
-                                    <h3>Nanekarwadi Projects</h3>
-                                    <p>4 Images Available</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Mamurdi projects (3 images) -->
-                        <div class="col-md-4 gal-grid gal-top">
-                            <div class="gallery-item" onclick="openLocationModal('mamurdi')">
-                                <img src="assets/images/projects/Mamurdi-01.jpeg" alt="Mamurdi Projects" />
-                                <div class="overlay">
-                                    <h3>Mamurdi Projects</h3>
-                                    <p>3 Images Available</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Tathawade projects (1 image) -->
-                        <div class="col-md-4 gal-grid gal-top">
-                            <div class="gallery-item" onclick="openLocationModal('tathawade')">
-                                <img src="assets/images/projects/Tathawade.jpeg" />
-                                <div class="overlay">
-                                    <h3>Tathawade Projects</h3>
-                                    <p>1 Image Available</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        
-                        <div class="col-md-4 gal-grid gal-top">
-                            <div class="gallery-item" onclick="openLocationModal('image4oct25')">
-                                <img src="assets/images/projects/image4oct25.jpeg" alt="anjangaon Projects" />
-                                <div class="overlay">
-                                    <h3>anjangaon Projects</h3>
-                                    <p>1 Image Available</p>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        <div class="col-md-4 gal-grid gal-top">
-                            <div class="gallery-item" onclick="openModal(22)">
-                                <video autoplay muted loop class="gallery-video">
-                                    <source src="assets/images/projects/video4oct25.mp4" type="video/mp4" />
-                                </video>
-                                <div class="overlay">
-                                    <h3>Project Video</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Shirapur project (13 images) -->
-                        <div class="col-md-4 gal-grid gal-top">
-                            <div class="gallery-item" onclick="openLocationModal('shirapur')">
-                                <img src="assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%2012.58.22%20PM.jpeg" alt="Shirapur Projects" />
-                                <div class="overlay">
-                                    <h3>Location -Shirapur, Pune</h3>
-                                    <p>13 Images Available</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Ravet project (10 images) -->
-                        <div class="col-md-4 gal-grid gal-top">
-                            <div class="gallery-item" onclick="openLocationModal('ravet_new')">
-                                <img src="assets/images/projects/Location%20-%20Ravet%2CPune/WhatsApp%20Image%202026-04-27%20at%201.00.25%20PM.jpeg" alt="Ravet Projects" />
-                                <div class="overlay">
-                                    <h3>Location - Ravet, Pune</h3>
-                                    <p>10 Images Available</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Chimble project (7 images) -->
-                        <div class="col-md-4 gal-grid gal-top">
-                            <div class="gallery-item" onclick="openLocationModal('chimble')">
-                                <img src="assets/images/projects/Location%20-%20Chimble%2CPune/WhatsApp%20Image%202026-04-27%20at%201.02.38%20PM.jpeg" alt="Chimble Projects" />
-                                <div class="overlay">
-                                    <h3>Location - Chimble, Pune</h3>
-                                    <p>7 Images Available</p>
                                 </div>
                             </div>
                         </div>
@@ -270,9 +277,21 @@
             { type: "image", src: "assets/images/projects/Junnar-02.jpeg" }
         ],
         'mamurdi': [
-            { type: "image", src: "assets/images/projects/Mamurdi-01.jpeg" },
-            { type: "image", src: "assets/images/projects/Mamurdi-02.jpeg" },
-            { type: "image", src: "assets/images/projects/Mamurdi-03.jpeg" }
+            { type: "image", src: "assets/images/projects/Mamurdi/WhatsApp%20Image%202026-04-29%20at%203.24.22%20PM.jpeg" },
+            { type: "image", src: "assets/images/projects/Mamurdi/WhatsApp%20Image%202026-04-29%20at%203.24.22%20PM%20%281%29.jpeg" },
+            { type: "image", src: "assets/images/projects/Mamurdi/WhatsApp%20Image%202026-04-29%20at%203.24.23%20PM.jpeg" },
+            { type: "image", src: "assets/images/projects/Mamurdi/WhatsApp%20Image%202026-04-29%20at%203.24.23%20PM%20%281%29.jpeg" },
+            { type: "image", src: "assets/images/projects/Mamurdi/WhatsApp%20Image%202026-04-29%20at%203.24.23%20PM%20%282%29.jpeg" },
+            { type: "image", src: "assets/images/projects/Mamurdi/WhatsApp%20Image%202026-04-29%20at%203.24.24%20PM.jpeg" },
+            { type: "image", src: "assets/images/projects/Mamurdi/WhatsApp%20Image%202026-04-29%20at%203.24.24%20PM%20%281%29.jpeg" }
+        ],
+        'sate_town': [
+            { type: "image", src: "assets/images/projects/Sate%20Town/WhatsApp%20Image%202026-04-29%20at%203.31.43%20PM.jpeg" },
+            { type: "image", src: "assets/images/projects/Sate%20Town/WhatsApp%20Image%202026-04-29%20at%203.31.43%20PM%20%281%29.jpeg" },
+            { type: "image", src: "assets/images/projects/Sate%20Town/WhatsApp%20Image%202026-04-29%20at%203.31.44%20PM.jpeg" },
+            { type: "image", src: "assets/images/projects/Sate%20Town/WhatsApp%20Image%202026-04-29%20at%203.31.44%20PM%20%281%29.jpeg" },
+            { type: "image", src: "assets/images/projects/Sate%20Town/WhatsApp%20Image%202026-04-29%20at%203.31.44%20PM%20%282%29.jpeg" },
+            { type: "image", src: "assets/images/projects/Sate%20Town/WhatsApp%20Image%202026-04-29%20at%203.31.45%20PM.jpeg" }
         ],
         'tathawade': [
             { type: "image", src: "assets/images/projects/Tathawade.jpeg" }
@@ -305,29 +324,12 @@
         'shirapur': [
             { type: "image", src: "assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%2012.58.22%20PM.jpeg" },
             { type: "image", src: "assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%2012.59.00%20PM.jpeg" },
-            { type: "image", src: "assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%2012.59.10%20PM.jpeg" },
-            { type: "image", src: "assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%201.00.25%20PM.jpeg" },
-            { type: "image", src: "assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%201.00.37%20PM.jpeg" },
-            { type: "image", src: "assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%201.01.00%20PM.jpeg" },
-            { type: "image", src: "assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%201.02.38%20PM.jpeg" },
-            { type: "image", src: "assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%201.02.41%20PM%20%281%29.jpeg" },
-            { type: "image", src: "assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%201.02.41%20PM.jpeg" },
-            { type: "image", src: "assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%201.02.42%20PM%20%281%29.jpeg" },
-            { type: "image", src: "assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%201.02.42%20PM.jpeg" },
-            { type: "image", src: "assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%201.02.43%20PM%20%281%29.jpeg" },
-            { type: "image", src: "assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%201.02.43%20PM.jpeg" }
+            { type: "image", src: "assets/images/projects/Location%20-Shirapur%2C%20Pune/WhatsApp%20Image%202026-04-27%20at%2012.59.10%20PM.jpeg" }
         ],
         'ravet_new': [
             { type: "image", src: "assets/images/projects/Location%20-%20Ravet%2CPune/WhatsApp%20Image%202026-04-27%20at%201.00.25%20PM.jpeg" },
             { type: "image", src: "assets/images/projects/Location%20-%20Ravet%2CPune/WhatsApp%20Image%202026-04-27%20at%201.00.37%20PM.jpeg" },
-            { type: "image", src: "assets/images/projects/Location%20-%20Ravet%2CPune/WhatsApp%20Image%202026-04-27%20at%201.01.00%20PM.jpeg" },
-            { type: "image", src: "assets/images/projects/Location%20-%20Ravet%2CPune/WhatsApp%20Image%202026-04-27%20at%201.02.38%20PM.jpeg" },
-            { type: "image", src: "assets/images/projects/Location%20-%20Ravet%2CPune/WhatsApp%20Image%202026-04-27%20at%201.02.41%20PM%20%281%29.jpeg" },
-            { type: "image", src: "assets/images/projects/Location%20-%20Ravet%2CPune/WhatsApp%20Image%202026-04-27%20at%201.02.41%20PM.jpeg" },
-            { type: "image", src: "assets/images/projects/Location%20-%20Ravet%2CPune/WhatsApp%20Image%202026-04-27%20at%201.02.42%20PM%20%281%29.jpeg" },
-            { type: "image", src: "assets/images/projects/Location%20-%20Ravet%2CPune/WhatsApp%20Image%202026-04-27%20at%201.02.42%20PM.jpeg" },
-            { type: "image", src: "assets/images/projects/Location%20-%20Ravet%2CPune/WhatsApp%20Image%202026-04-27%20at%201.02.43%20PM%20%281%29.jpeg" },
-            { type: "image", src: "assets/images/projects/Location%20-%20Ravet%2CPune/WhatsApp%20Image%202026-04-27%20at%201.02.43%20PM.jpeg" }
+            { type: "image", src: "assets/images/projects/Location%20-%20Ravet%2CPune/WhatsApp%20Image%202026-04-27%20at%201.01.00%20PM.jpeg" }
         ],
         'chimble': [
             { type: "image", src: "assets/images/projects/Location%20-%20Chimble%2CPune/WhatsApp%20Image%202026-04-27%20at%201.02.38%20PM.jpeg" },
@@ -350,6 +352,7 @@
         'junnar': 'Junnar Projects',
         'nanekarwadi': 'Nanekarwadi Projects',
         'mamurdi': 'Mamurdi Projects',
+        'sate_town': 'Sate Town - Location: Sate, Mawal',
         'tathawade': 'Tathawade Projects',
         'ravet': '2BHK Flat Apartment Ravet',
         'ps_projects': 'PS INNOVATIVE Projects',
