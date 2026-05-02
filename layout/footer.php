@@ -106,13 +106,13 @@
     <span>Consult Now</span>
   </div>
   <div class="footer-item call-us">
-    <a target="_blank" href="tel:+919049685828">
+    <a target="_blank" href="tel:8087674246">
       <i class="fas fa-phone-alt"></i>
       <span>Call Us</span>
     </a>
   </div>
   <div class="footer-item whatsapp">
-    <a target="_blank" href="https://api.whatsapp.com/send?phone=+919049685828&amp;text=Hi there! Welcome to PS INNOVATIVE Creation...">
+    <a target="_blank" href="https://wa.me/+919657035559?text=Hi there! Welcome to PS INNOVATIVE Creation...">
       <i class="fab fa-whatsapp"></i>
       <span>WhatsApp</span>
     </a>
